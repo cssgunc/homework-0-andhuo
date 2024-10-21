@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Replica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        .profile-info {
+            text-align: left;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            max-width: 200px;
+            margin: 10px auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+            padding: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile">
+        <img src="/Users/andy/Downloads/PFP.png" alt="PFP">
+        <div class="profile-info">
+            <h1>andyhuo_</h1>
+            <p>Andy</p>
+            <p>@uncchapelhill 🇺🇸</p>
+            <div class="stats">
+                <div><strong>4</strong> posts</div>
+                <div><strong>783</strong> followers</div>
+                <div><strong>646</strong> following</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <img src="/Users/andy/Downloads/DSC_0576.JPG" alt="Post 1">
+        <img src="/Users/andy/Downloads/DSC_0652.JPG" alt="Post 2">
+        <img src="/Users/andy/Downloads/DSC_0831.JPG" alt="Post 3">
+        <img src="/Users/andy/Downloads/IMG_5867.jpeg" alt="Post 4">
+    </div>
+
+</body>
+</html>
